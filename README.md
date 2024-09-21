@@ -31,8 +31,8 @@ pip install -r requirements.txt
 Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/SarthakRoongta/language-translation-chatbot.git
-cd language-translation-chatbot
+git clone https://github.com/SarthakRoongta/LingoTranslate.git
+
 ```
 Step 2: Install Dependencies
 
