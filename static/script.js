@@ -4,14 +4,12 @@ function sendMessage() {
     const chatBox = document.getElementById('chat-box');
 
     if (!userInput.trim()) {
-        return; // Don't send empty messages
+        return; 
     }
 
-    // Append user's message to the chat
     appendMessageToChat("You", userInput);
     document.getElementById('user-input').value = ''; // Clear the input field
 
-    // Send request to the Flask backend for processing the user input
     fetch('/chat', {
         method: 'POST',
         headers: {
