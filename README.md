@@ -24,7 +24,7 @@ Before running the project, ensure that you have the following installed:
 Install the necessary Python dependencies using the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt ```
 
 **#### Project Structure**
 /project-directory
