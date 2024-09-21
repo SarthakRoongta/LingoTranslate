@@ -25,5 +25,34 @@ Install the necessary Python dependencies using the following command:
 ```bash
 pip install -r requirements.txt
 ```
-test
+#### Project Structure
 
+/project-directory
+│
+├── /static
+│   ├── styles.css         # CSS for styling the frontend
+│   └── script.js          # JavaScript for handling frontend logic
+│
+├── /templates
+│   └── index.html         # HTML file for the frontend interface
+│
+└── app.py                 # Flask backend code
+
+##### Setup Instructions
+
+Step 1: Clone the repository
+
+```bash
+git clone https://github.com/SarthakRoongta/language-translation-chatbot.git
+cd language-translation-chatbot
+```
+Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Step 3: Set Up Environment Variables
+```bash
+export OPENAI_API_KEY= "YOUR OPENAI KEY"
+```
