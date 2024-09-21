@@ -9,7 +9,7 @@ This project is a language translation chatbot that uses OpenAI's GPT-3.5 Turbo 
 - A simple and responsive frontend.
 - Backend powered by Flask with OpenAI and Deep Translator integration.
 
-## Prerequisites
+### Prerequisites
 
 Before running the project, ensure that you have the following installed:
 
@@ -18,25 +18,13 @@ Before running the project, ensure that you have the following installed:
 - OpenAI API Key (You can obtain it [here](https://beta.openai.com/signup/))
 - Google Translator API (Deep Translator package)
   
-### Python Dependencies
+#### Python Dependencies
 
 Install the necessary Python dependencies using the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
-#### Project Structure
-
-/project-directory
-│
-├── /static
-│   ├── styles.css         # CSS for styling the frontend
-│   └── script.js          # JavaScript for handling frontend logic
-│
-├── /templates
-│   └── index.html         # HTML file for the frontend interface
-│
-└── app.py                 # Flask backend code
 
 ##### Setup Instructions
 
@@ -56,3 +44,21 @@ Step 3: Set Up Environment Variables
 ```bash
 export OPENAI_API_KEY= "YOUR OPENAI KEY"
 ```
+Step 4: Run the Application
+To start the Flask server, use the following command:
+```bash
+python app.py
+```
+Step 5: Access the Chatbot
+Open your browser and go to
+```bash
+http://127.0.0.1:5000/
+```
+
+You should now be able to interact with the chatbot and receive translated responses in the selected language.
+
+###### Usage
+
+Enter a message in the input box.
+Select the target language for translation from the dropdown.
+Click "Send" to receive a response from the chatbot, which will be translated into the selected language.
